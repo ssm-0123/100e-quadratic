@@ -29,7 +29,15 @@ def numSolutions(a,b,c):
   return None
 
 def main():
-  pass
+  # Uncomment the lines that make use of your function definition
+  #assert numSolutions(2,3,8) == 0
+  #assert numSolutions(-55) == 0
+  
+  #assert numSolutions(1,4,4) == 1
+  #assert numSolutions(0) == 1
+  
+  #assert numSolutions(1,-1,-6) == 2
+  #assert numSolutions(25) == 2
 
 if __name__ == "__main__":
   main()
