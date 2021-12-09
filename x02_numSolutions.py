@@ -12,6 +12,7 @@ Assignments:
 ##### x02. Determine the number of solutions
 Determine the number of solutions. You will need to make use of the discriminant.  If you have already completed x01, you can import that function and make use of it in this assignment
 """
+import x01_discriminant
 
 def numSolutions(discriminant):
   """
