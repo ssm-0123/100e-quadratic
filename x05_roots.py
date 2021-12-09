@@ -33,14 +33,15 @@ def roots(a,b,c):
   ax^2 + bc + c = 0
   
   return:
-  sorted list with the 2 values of the roots if there are solutions
+  list with the 2 values of the roots if there are solutions
   None if there are no solutions
   '''
   return None
 
 def main():
-  assert roots(1,-1,-6) == [ -3 , 2 ]
-  assert roots(1,4,4) == [ -2, -2 ]
+  assert -3 in roots(1,-1,-6) == True
+  assert 2 in roots(1,-1,-6) == True
+  assert -2 in roots(1,4,4) == True
   assert roots(2,3,8) == None
   
 if __name__ == "__main__":
