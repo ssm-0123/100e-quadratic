@@ -17,10 +17,10 @@ The square root part is called the "discriminant".
 5. If the discriminant is not a perfect square, then the roots will be irrational numbers (involving roots) and the quadratic can not be factored.
 
 Assignments:
-##### x01. Determine the value of the discriminant
-##### x02. Determine the number of solutions
-##### x03. Determine if the quadratic can be factored
-##### x04. Determine if the quadratic is a perfect square
-##### x05. Determine the roots
-##### x06. Determine the factored form
+* x01. Determine the value of the discriminant
+* x02. Determine the number of solutions
+* x03. Determine if the quadratic can be factored
+* x04. Determine if the quadratic is a perfect square
+* x05. Determine the roots
+* x06. Determine the factored form
 
