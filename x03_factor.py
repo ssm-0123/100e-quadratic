@@ -32,17 +32,18 @@ def factorable(discriminant):
   return None
 
 def main():
-  assert factorable(1,4,4) == True
-  assert factorable(0) == True
+  #uncomment the lines that match your assignment
+  #assert factorable(1,4,4) == True
+  #assert factorable(0) == True
   
-  assert factorable(1,-1,-6) == True
-  assert factorable(25) == True
+  #assert factorable(1,-1,-6) == True
+  #assert factorable(25) == True
   
-  assert factorable(2,3,8) == False
-  assert factorable(-55) == False
+  #assert factorable(2,3,8) == False
+  #assert factorable(-55) == False
   
-  assert factorable(1,3,7) == False
-  assert factorable(5) == False
+  #assert factorable(1,3,7) == False
+  #assert factorable(5) == False
   
 if __name__ == "__main__":
   main()
