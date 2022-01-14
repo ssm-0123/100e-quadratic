@@ -39,9 +39,9 @@ def roots(a,b,c):
   return None
 
 def main():
-  assert -3 in roots(1,-1,-6) == True
-  assert 2 in roots(1,-1,-6) == True
-  assert -2 in roots(1,4,4) == True
+  assert (3 in roots(1,-1,-6)) == True
+  assert (-2 in roots(1,-1,-6)) == True
+  assert (-2 in roots(1,4,4)) == True
   assert roots(2,3,8) == None
   
 if __name__ == "__main__":
