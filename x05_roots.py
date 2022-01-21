@@ -25,6 +25,8 @@ Create a function that will determine the roots.
 You may import the functions from your other assignments.
 '''
 
+import x01_discriminant
+
 def roots(a,b,c):
   '''
   input parameters:
@@ -36,7 +38,20 @@ def roots(a,b,c):
   list with the 2 values of the roots if there are solutions
   None if there are no solutions
   '''
-  return None
+  
+  dis = x01_discriminant.discriminant(a,b,c)
+
+  if dis < 0:
+    return None
+
+  x = -b - ((b**2 - 4 * a * c)**0.5 / (2*a))
+  y = -b + ((b**2 - 4 * a * c)**0.5 / (2*a))
+
+
+  
+  return x,y
+
+print(roots(1,2,1))
 
 def main():
   assert (3 in roots(1,-1,-6)) == True

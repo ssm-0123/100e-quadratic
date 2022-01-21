@@ -28,18 +28,23 @@ def perfSquare(discriminant):
     True - is perfect
     False - is not perfect
   '''
-  
+  dis = x01_discriminant.discriminant(a,b,c)
+
+  if dis == 0:
+    return True
+  else :
+    return False
   return None
 
 def main():
   #uncomment the lines that match how you have created your function
-  #assert perfSquare(1,4,4) == True
+  assert perfSquare(1,4,4) == True
   #assert perfSquare(0) == True
   
-  #assert perfSquare(1,-1,-6) == False
+  assert perfSquare(1,-1,-6) == False
   #assert perfSquare(25) == False
   
-  #assert perfSquare(2,3,8) == False
+  assert perfSquare(2,3,8) == False
   #assert perfSquare(-55) == False
 
   

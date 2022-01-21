@@ -23,7 +23,9 @@ This will be a signed value for the discriminant. It may be positive or negative
 """
 
 def discriminant(a,b,c):
-  return None
+  answer = b**2 - 4*a*c
+  return answer
+
 
 
 def main():
@@ -31,5 +33,5 @@ def main():
   assert discriminant(1,-1,-6) == 25
   assert discriminant(2,3,8) == -55
   
-if __name__=="__main__:
+if __name__=="__main__":
   main()
