@@ -44,14 +44,15 @@ def roots(a,b,c):
   if dis < 0:
     return None
 
-  x = -b - ((b**2 - 4 * a * c)**0.5 / (2*a))
-  y = -b + ((b**2 - 4 * a * c)**0.5 / (2*a))
+  x = (-b - (b**2 - 4 * a * c)**0.5) / (2*a)
+  y = (-b + (b**2 - 4 * a * c)**0.5) / (2*a)
 
 
   
   return x,y
 
-print(roots(1,2,1))
+
+print(roots(6,-7,-3))
 
 def main():
   assert (3 in roots(1,-1,-6)) == True
