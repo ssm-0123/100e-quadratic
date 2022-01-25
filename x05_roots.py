@@ -26,7 +26,6 @@ You may import the functions from your other assignments.
 '''
 
 import x01_discriminant
-
 def roots(a,b,c):
   '''
   input parameters:
@@ -38,7 +37,9 @@ def roots(a,b,c):
   list with the 2 values of the roots if there are solutions
   None if there are no solutions
   '''
-  
+
+
+
   dis = x01_discriminant.discriminant(a,b,c)
 
   if dis < 0:
@@ -52,7 +53,6 @@ def roots(a,b,c):
   return x,y
 
 
-print(roots(6,-7,-3))
 
 def main():
   assert (3 in roots(1,-1,-6)) == True
