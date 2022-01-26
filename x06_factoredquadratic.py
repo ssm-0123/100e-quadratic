@@ -55,7 +55,6 @@ def Factored(a,b,c):
   
   re = [f"({lista[0]}x {porma} {lista[1]})",f"({listb[0]}x {pormb} {listb[1]})"]
 
-  print(re)
 
   # (qx+w)(ex+r)    b = qr + ew    a = qe    c = wr
   
@@ -74,7 +73,7 @@ def Factored(a,b,c):
 
 
 def main():
-  assert "(x + 3)" in Factored(1,1,-6) == True
+  assert ("(x + 3)" in Factored(1,1,-6)) == True
   assert "(x - 2)" in Factored(1,1,-6) == True
   assert "(x + 2)" in Factored(1,7,10) == True
   assert "(2x + 1)" in Factored(2,5,2) == True
